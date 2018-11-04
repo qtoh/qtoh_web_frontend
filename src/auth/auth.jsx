@@ -31,7 +31,7 @@ class Auth extends Component {
         const { handleSubmit } = this.props
         return (
             <div className="login-box">
-                <div className="login-logo"><b> My</b> Money</div>
+                <div className="login-logo"><b> QTOH</b> Tech</div>
                 <div className="login-box-body">
                     <p className="login-box-msg">Bem vindo!</p>
                     <form onSubmit={handleSubmit(v => this.onSubmit(v))}>

@@ -11,7 +11,7 @@ import Row from  '../common/layout/row'
 class Dashboard extends Component {
 
     componentWillMount() {
-        this.props.getSummary()
+        //this.props.getSummary()
     }
 
     render() {
@@ -19,7 +19,7 @@ class Dashboard extends Component {
         return (
             <div> 
                 <ContentHeader title='Dashboard' small='Versão 1.0' />
-                <Content>
+                {/*<Content>
                     <Row> 
                         <ValueBox cols='12 4' color='green' icon='bank'
                             value={`R$ ${credit}`} text='Total de Créditos' />
@@ -28,7 +28,7 @@ class Dashboard extends Component {
                         <ValueBox cols='12 4' color='blue' icon='money'
                             value={`R$ ${credit - debt}`} text='Valor Consolidado' />
                     </Row> 
-                </Content> 
+                </Content> */}
             </div>
         )
     }
